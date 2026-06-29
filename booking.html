@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Room | COZY STAY</title>
+  <meta name="description" content="Reserve your stay online at COZY STAY. Fill out our simple booking form layout to reserve suites.">
+  <meta name="keywords" content="hotel booking layout, online checkin form, reserve hotel rooms">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">COZY STAY</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="booking.html">Booking</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="container section">
+    <h1>Room Booking Reservation</h1>
+    <p style="margin-bottom: 30px;">Complete the basic structure form below to lock your seasonal pricing offer.</p>
+    
+    <div class="card" style="max-width: 500px; margin: 0 auto; text-align: left;">
+      <form action="#" method="POST" onsubmit="alert('Thank you! Your room request has been submitted successfully.'); return false;">
+        <div style="margin-bottom: 15px;">
+          <label style="display:block; font-weight:bold; margin-bottom:5px;">Full Name</label>
+          <input type="text" placeholder="Enter your full name" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label style="display:block; font-weight:bold; margin-bottom:5px;">Email Address</label>
+          <input type="email" placeholder="Enter your email" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label style="display:block; font-weight:bold; margin-bottom:5px;">Select Room Type</label>
+          <select required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:4px;">
+            <option value="single">Standard Single (₹1,999/Night)</option>
+            <option value="deluxe">Deluxe Double (₹3,499/Night)</option>
+            <option value="presidential">Presidential Suite (₹6,999/Night)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn" style="width:100%; border:none; cursor:pointer; padding:12px;">Submit Reservation</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>COZY STAY</h3>
+      <p>A simple frontend beginner project built with pristine HTML, CSS, and vanilla JS.</p>
+    </div>
+    <div>
+      <h3>Quick Jumps</h3>
+      <p><a href="rooms.html">Rooms</a> | <a href="gallery.html">Gallery</a> | <a href="booking.html">Reserve</a></p>
+    </div>
+    <div>
+      <h3>Get In Touch</h3>
+      <p>Email: stay@cozystay.com<br>Phone: +91-9999988888</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 COZY STAY. Created for MANTRA 2026 Project Submission.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
